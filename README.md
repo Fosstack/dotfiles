@@ -13,4 +13,4 @@
 
 
 add this to crontab 
-*/3 * * * * sudo -u $USER DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u $USER)/bus /home/karansthr/.local/bin/low_battery.sh
+`*/3 * * * * sudo -u $USER DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u $USER)/bus /home/karansthr/.local/bin/low_battery.sh`
