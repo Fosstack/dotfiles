@@ -23,7 +23,7 @@ def get_tagname_or_hash():
 
     if tagname:
         return tagname
-    elif hash_:
+    if hash_:
         return hash_
     return None
 
